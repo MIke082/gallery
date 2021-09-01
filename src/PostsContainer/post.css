@@ -1,0 +1,97 @@
+.posts-component-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+
+}
+
+.post {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 80px;
+
+}
+
+.post_image {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.post_text {
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+.post-like-comments {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-like-comments button {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.post_comments {
+    overflow: scroll;
+    width: 300px;
+    max-height: 150px;
+    background-color: white;
+}
+
+.post-coment-like {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.post-date {
+    text-align: center;
+}
+
+.post-modal-add-post {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-modal-add-post button {
+
+    margin: 20px;
+}
+
+.post-toogle-btn-open {
+    text-align: center;
+}
+
+.post-toogle-btn-open button {
+    margin-top: 20px;
+}
+
+.post-btn-click-add-comment-and-close-modale {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-btn-click-add-comment-and-close-modale button {
+    font-size: 11px;
+}
+
+.posts-btn-add-post {
+    margin-bottom: 50px;
+    text-align: center;
+}
